@@ -58,7 +58,7 @@ function setHiddenFields() {
 
     function showAnswer(success) {
         let code = document.getElementById('code');
-        if(sucess) {
+        if(success) {
             code.className += ' success';
         } else {
             code.className += ' failure';
